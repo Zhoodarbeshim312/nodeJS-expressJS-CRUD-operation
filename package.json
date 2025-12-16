@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_crud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "build": "tsc",
+    "dev": "nodemon"
+  },
+  "author": "Zhoodarbeshim",
+  "license": "ISC",
+  "description": "Учебный проект Node.js с операциями Create, Read, Update, Delete",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
